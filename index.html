@@ -4,35 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gutter classes</title>
+    <title>wireframe with bootstrap</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/popper.min.js"></script>
 </head>
-<style>
-    .box {
-        text-align: center;
-        display: flex;
-        justify-content: center;
-    }
-
-    .box > img {
-        width: 80%;
-    }
-</style>
 
 <body>
-    <div class="container ">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login.html" tabindex="-1" aria-disabled="true">Login</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+
         <div class="row g-lg-3 g-md-3 gy-sm-2 d-flex justify-content-evenly align-content-center">
             <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-content-center">
                 <div class="box">
                     <img src="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small_2x/user-profile-icon-free-vector.jpg"
-                        alt="">
+                        alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-12 d-flex justify-content-between align-item-center">
                 <div class="box d-flex justify-content-center flex-column text-capitalize text-black-50 p-5">
-                    <h3>xyz-profile</h3>
+                    <h3>Muzammil</h3>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur repellat reprehenderit quia
                     alias
                     nostrum voluptatibus aut expedita. Laborum magni omnis quisquam a nobis aperiam aspernatur
@@ -48,7 +71,7 @@
     <div class="container">
         <div class="row g-lg-3 g-md-3 g-sm-2 ">
             <div class="col-lg-4 col-md-6 col-12">
-                <div class="box border">
+                <div class="box shadow p-2 rounded-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur repellat reprehenderit quia
                     alias
                     nostrum voluptatibus aut expedita. Laborum magni omnis quisquam a nobis aperiam aspernatur
@@ -57,7 +80,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <div class="box border">
+                <div class="box shadow p-2 rounded-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur repellat reprehenderit quia
                     alias
                     nostrum voluptatibus aut expedita. Laborum magni omnis quisquam a nobis aperiam aspernatur
@@ -66,7 +89,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <div class="box border">
+                <div class="box shadow p-2 rounded-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur repellat reprehenderit quia
                     alias
                     nostrum voluptatibus aut expedita. Laborum magni omnis quisquam a nobis aperiam aspernatur
@@ -75,7 +98,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <div class="box border">
+                <div class="box shadow p-2 rounded-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur repellat reprehenderit quia
                     alias
                     nostrum voluptatibus aut expedita. Laborum magni omnis quisquam a nobis aperiam aspernatur
@@ -84,7 +107,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <div class="box border">
+                <div class="box shadow p-2 rounded-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur repellat reprehenderit quia
                     alias
                     nostrum voluptatibus aut expedita. Laborum magni omnis quisquam a nobis aperiam aspernatur
@@ -93,7 +116,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <div class="box border">
+                <div class="box shadow p-2 rounded-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur repellat reprehenderit quia
                     alias
                     nostrum voluptatibus aut expedita. Laborum magni omnis quisquam a nobis aperiam aspernatur
@@ -110,44 +133,44 @@
     <div class="container">
         <div class="row g-lg-3 g-md-3 g-sm-2 border-dark">
             <div class="col-lg-4 col-md-6 col-12">
-                <div class="box border d-flex flex-column justify-content-center align-items-center">
+                <div class="box shadow p-2 rounded-3 d-flex flex-column justify-content-center align-items-center">
                     <img src="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small_2x/user-profile-icon-free-vector.jpg"
-                    alt="">
+                        alt="" class="img-fluid">
                     <p class="d-flex justify-content-center">Lorem, ipsum.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <div class="box border d-flex flex-column justify-content-center align-items-center">
+                <div class="box shadow p-2 rounded-3 d-flex flex-column justify-content-center align-items-center">
                     <img src="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small_2x/user-profile-icon-free-vector.jpg"
-                    alt="">
+                        alt="" class="img-fluid">
                     <p class="d-flex justify-content-center">Lorem, ipsum.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <div class="box border d-flex flex-column justify-content-center align-items-center">
+                <div class="box shadow p-2 rounded-3 d-flex flex-column justify-content-center align-items-center">
                     <img src="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small_2x/user-profile-icon-free-vector.jpg"
-                    alt="">
+                        alt="" class="img-fluid">
                     <p class="d-flex justify-content-center">Lorem, ipsum.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <div class="box border d-flex flex-column justify-content-center align-items-center">
+                <div class="box shadow p-2 rounded-3 d-flex flex-column justify-content-center align-items-center">
                     <img src="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small_2x/user-profile-icon-free-vector.jpg"
-                    alt="">
+                        alt="" class="img-fluid">
                     <p class="d-flex justify-content-center">Lorem, ipsum.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <div class="box border d-flex flex-column justify-content-center align-items-center">
+                <div class="box shadow p-2 rounded-3 d-flex flex-column justify-content-center align-items-center">
                     <img src="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small_2x/user-profile-icon-free-vector.jpg"
-                    alt="">
+                        alt="" class="img-fluid">
                     <p class="d-flex justify-content-center">Lorem, ipsum.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <div class="box border d-flex flex-column justify-content-center align-items-center">
+                <div class="box shadow p-2 rounded-3 d-flex flex-column justify-content-center align-items-center">
                     <img src="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small_2x/user-profile-icon-free-vector.jpg"
-                    alt="">
+                        alt="" class="img-fluid">
                     <p class="d-flex justify-content-center">Lorem, ipsum.</p>
                 </div>
             </div>
